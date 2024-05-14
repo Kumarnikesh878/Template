@@ -1,0 +1,260 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.template{
+    width: 960px;
+    margin: 0 auto;
+}
+.row1{
+    height: 50px;
+    width: 100%;
+    background-color: skyblue;
+}
+.logo{
+    width: 30%;
+    float: left;
+}
+.logo h1{
+    font-size: 50px;
+    color: white;
+    line-height: 50px;
+    padding-left: 20px;
+}
+.menu{
+    width: 70%;
+    float: left;
+}
+.menu ul{}
+.menu ul li{
+    float: left;
+    line-height: 50px;
+    list-style: none;
+    margin-left: 40px;
+}
+.menu ul li a{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+/* Row2 CSS Started */
+.row2{
+    height: 450px;
+    width: 100%;
+    background: url(../images/banner-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.banner_section{
+    text-align: center;
+}
+.banner_section h1 {
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 110px;
+}
+.banner_section p {
+    color: white;
+    font-size: 24px;
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 35px;
+    padding-top: 20px;
+}
+.banner_section button {
+    padding: 15px 30px;
+    border-radius: 20px;
+    border: none;
+    text-transform: uppercase;
+    margin-top: 20px;
+    font-weight: 600;
+    font-size: 18px;
+
+
+}
+/* Row2 CSS END */
+
+
+/* Row3 CSS Start */
+.row3{
+    height: 260px;
+    width: 100%;
+    background: skyblue;
+    text-align: center;
+}
+.welcome_section{}
+.welcome_section h1{
+    padding-top: 30px;
+}
+.border{
+    height: 5px;
+    width: 40px;
+    background: #000;
+    margin: 10px auto;
+}
+.welcome_section p {
+    width: 680px;
+    margin: 0 auto;
+    padding-bottom: 20px;
+}
+.welcome_section button {
+    padding: 10px 20px;
+    border-radius: 50px;
+    background: #fff;
+}
+
+
+/* Row3 CSS End */
+
+/* Row4 CSS Start */
+.row4{
+    height: 259px;
+    width: 100%;
+
+}
+.our-mission-vision{}
+.mission-item{
+    float: left;
+    width: 260px;
+    height: 100%;
+    text-align: center;
+    padding: 20px 30px;
+    background: darkblue;
+    color: #fff;
+}
+.mission-item i {
+    font-size: 40px;
+    padding-bottom: 18px;
+    padding-top: 10px;
+}
+.mission-item h1 {
+    font-size: 25px;
+    padding-bottom: 16px;
+}
+.mission-item p {
+    font-size: 14px;
+    text-align: justify;
+    padding-bottom: 10px;
+}
+.mission-item:hover{
+    background: black;
+    transition: 1s;
+}
+/* Row4 CSS End */
+
+/* Row5 CSS Start */
+.row5{
+    height: 450px;
+    width: 100%;
+    background: skyblue;
+
+}
+.service_section{}
+.service_top{}
+.service_top h1{
+    text-align: center;
+    padding-top: 10px;
+    font-size: 35px;
+}
+.service_top p{
+    text-align: center;
+    width: 789px;
+    margin: 0 auto;
+    line-height: 25px;
+    padding-bottom: 20px;
+}
+.service_bottom{
+    width: 90%;
+    margin:0 auto;
+}
+.service_bottom_row{
+    height: 80px;
+}
+.service_bottom_item{
+    width: 28%;
+    float: left;
+    background: #999;
+    margin-left: 15px;
+    padding: 8px 15px;
+    border-radius: 5px;
+
+}
+.service_item_left{
+    width: 30%;
+    float: left;
+}
+.service_item_left i{
+    border: 1px solid #000;
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+    line-height: 50px;
+    text-align: center;
+    font-size: 20px;
+    color: #000;
+}
+.service_item_right{
+    width: 70%;
+    float: left;
+}
+.service_item_right h2{
+    font-size: 18px;    
+    padding-top: 18px;
+    color: #000;
+}
+.service_bottom_item:hover{
+    background-color: black;
+    transition: 1s;
+}
+
+.service_bottom_item:hover .service_item_right h2{
+    color: #fff;
+    transition: 1s;
+}
+.service_bottom_item:hover .service_item_left i{
+    color: #fff;
+    border: 1px solid #fff;
+    transition: 1s;
+}
+
+/* Row5 CSS End */
+
+/* Row6 CSS Start */
+.row6{
+    height: 300px;
+    width: 100%;
+    background: #4069ab;
+    color: #fff;
+}
+.counter-section{}
+.counter-item{
+    width: 240px;
+    float: left;
+    margin-top: 80px;
+    text-align: center;
+}
+.counter-item i{
+    border: 3px solid white;
+    height: 40px;
+    width: 40px;
+    border-radius: 100%;
+    line-height: 40px;
+    font-size: 25px;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+.counter-item h1{
+    font-size: 45px;
+    padding-bottom: 10px;
+
+}
+.counter-item p{
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+
+/* Row6 CSS End */

@@ -1,0 +1,83 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.template{
+    width: 960px;
+    background-color:red;
+    margin: 0 auto;
+}
+.row1{
+    height: 50px;
+    width: 100%;
+    background-color: skyblue;
+}
+.logo{
+    width: 30%;
+    float: left;
+}
+.logo h1{
+    font-size: 50px;
+    color: white;
+    line-height: 50px;
+    padding-left: 20px;
+}
+.menu{
+    width: 70%;
+    float: left;
+}
+.menu ul li{
+    float: left;
+    line-height: 50px;
+    list-style: none;
+    margin-left: 40px;
+}
+.menu ul li a{
+    color: blanchedalmond;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+/* Row2 CSS Started */
+
+.row2{
+    height: 450px;
+    width: 100%;
+    background: url(../images/IMG_20230401_205951_087.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.banner_section h1{
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 110px;
+}
+.banner_section p{
+    color: azure;
+    font-size: 25px;
+    width: 62%;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 40px;
+    padding-top: 25px;
+}
+.banner_section button{
+    padding: 20px 30px;
+    border-radius: 25px;
+    border: none;
+    text-transform: uppercase;
+    margin-top: 20px;
+    font-weight: 600;
+    font-size: 20px;
+}
+/* Row2 CSS End */
+
+/* Row3 CSS Start */
+.row3{
+    height: 260px;
+    width: 100%;
+    
+}
+
+
+/* Row3 CSS End */
